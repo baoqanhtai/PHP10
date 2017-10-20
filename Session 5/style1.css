@@ -1,0 +1,75 @@
+@font-face{
+	font-family: fonta;
+	src:url(Arimo-Italic.ttf);
+}
+header{
+	margin: 0;
+	padding: 0;
+	background-color: #F1DACC;
+	height: 250px;
+	text-align: center;
+	font-family: fonta;
+	margin-left: 20px;
+
+}
+header h1{
+	padding-top: 50px;
+}
+header img{
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#cva{
+	width: 20%;
+	float: left;
+	margin-left: 50px;
+	margin-right: 25px;
+	margin-top: 50px;
+}
+#cvb{
+	width: 70%;
+	float: left;
+	margin-left: 25px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#contact{
+	height: 150px;
+}
+#profile{
+	height: 150px;
+}
+#skills{
+	height: 150px;
+}
+#languages{
+	height: 150px;
+}
+#interests{
+	height: 150px;
+}
+#experience{
+	height: 150px;
+}
+#education{
+	height: 150px;
+}
+h3{
+	background-color: #595959;
+	color: #C3C5C4;
+	text-align: center;
+}
+#cvb h5{
+	text-align: center;
+}
+.ex{
+	height: 20%px;
+}
+.lang{
+	border: 1px solid black;
+	height: 10px;
+	margin-left: 60px;	
+	background-color: #C3C5C4;
+	width: 30px;
+}

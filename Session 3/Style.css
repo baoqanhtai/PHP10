@@ -1,0 +1,21 @@
+body{
+	background-color: white; padding: 20px;
+	}
+/* Day la dinh nghia mau the */
+h1	{
+	color:green;
+
+	}
+p{
+	color: black;
+	}
+span{
+	background-color: red;
+	color: white;
+}
+#Demo-1{
+	color: red;
+	}
+.Demo-2{
+	color: white;
+	}

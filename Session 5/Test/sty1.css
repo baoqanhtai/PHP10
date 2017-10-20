@@ -1,0 +1,26 @@
+#a{
+	height: 300px;
+	border: 2px solid black;
+	border-style: dotted;
+	width: 1000px;
+	padding-right: 5px;
+}
+#b{
+	border-radius: 50px;
+	box-shadow: 1px 2px 2px 5px red;
+	margin: 50px;
+	height: 200	px;
+	
+}
+#c{
+	border:2px solid red;
+	border-style: dotted;
+	margin: 20px;
+	padding: 20px;
+	height: 50px;
+}
+#d{
+	border: 2px solid red;
+	border-style: dotted;
+	margin: 20px;
+}

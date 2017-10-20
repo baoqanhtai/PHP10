@@ -1,0 +1,36 @@
+#mn{
+	list-style-type: upper-roman;
+}
+#fo{
+	list-style-type: upper-alpha;
+}
+.fb{
+	list-style-image: url(2.ico);
+}
+.ms{
+	list-style-image: url(1.ico);
+}
+.f{
+	list-style-image: url(favicon.ico);
+}
+a:link{
+	color: red;
+}
+a:hover{
+	color: yellow;
+}
+a:visited{
+	color: pink;			
+}
+a{
+	text-decoration: none;
+}
+.home{
+	height: 500px;
+}
+.about{
+	height: 500px;
+}
+.contact{
+	height: 500px;
+}

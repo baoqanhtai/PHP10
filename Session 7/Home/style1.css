@@ -1,0 +1,33 @@
+body{
+	width: 100%;
+}
+table{
+	width: 450px;
+}
+table ,th , td{
+	
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.td1{
+	width: 140px;
+}
+.tr1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	
+tr:nth-child(even){background-color: #F6CED8}
+
+th{
+	background-color: #F6CED8;
+	color: #DF013A;
+}
+textarea {
+	padding-left: 10px;
+	padding-right: 10px;
+}

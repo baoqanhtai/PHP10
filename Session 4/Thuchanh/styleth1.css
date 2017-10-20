@@ -1,0 +1,23 @@
+@font-face{
+	font-family: fontmoi;
+	src:url(AmaticSC-Regular.ttf);
+}
+
+
+
+.demo1{
+	color: blue;
+	font-family: fontmoi;
+	font-size: 200px;
+}
+
+
+
+
+h2.demo{
+	color: red;
+	border: 1px solid black;
+}
+main .demo{
+	color: red;
+}

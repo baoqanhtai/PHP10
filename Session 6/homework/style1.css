@@ -1,0 +1,74 @@
+@font-face {
+    font-family: fontmoi;
+    src: url(Arimo-BoldItalic.ttf);
+}
+body{
+	border:2px solid black;
+	width: 90%;
+	height: 750px;
+}
+#header{
+	width: 90%;
+	height: 200px;
+	border-bottom: 2px solid orange;
+	margin-left: 65px;
+	margin-right: 50px;
+}
+.hd1{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.hd2{
+	float: left;
+	margin-left: 50px;
+}
+
+
+.hd21{
+	font-family: fontmoi;
+	color: orange;
+}
+.hd22{
+	color: green;
+}
+#main{
+	height: 500px;
+	border-bottom: 2px solid orange;
+	margin-left: 65px;
+	margin-right: 50px;
+}
+#main1{
+	float: left;
+	width: 49%;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-left: 65px;
+	border-right: 2px solid orange;
+}
+.u1{
+	color: gray;
+}
+.u2{
+	color: green;
+}
+.u3{
+	color: orange;
+}
+#main2{
+	float: left;
+	width: 30%;
+	margin-right: 45px;
+	margin-top: 20px;
+
+}
+
+#main2 h4{
+	color: green;
+}
+#footer{
+	
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+}

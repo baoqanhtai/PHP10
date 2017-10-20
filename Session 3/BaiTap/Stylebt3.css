@@ -1,0 +1,45 @@
+#Main{
+	width: 600px;
+	height: 1500px;
+	border: 30px solid white;
+	overflow: hidden;
+	float: left;
+}
+.Top{
+	background-color: lightgray;
+	text-align: left;
+	height: 70px;
+	border: 50px solid white;
+}
+.Center{
+	background-color: lightgray;
+	border: 50px solid white;
+	height: 250px;
+	overflow: auto;
+
+
+}
+.Bot{
+	background: lightgray;
+	border: 50px solid white;
+	height: 70px;
+}
+.VDO{
+	background-color: red;
+	width: 250px;
+	margin-left: 25px;
+	margin-top: 25px;
+	float: left;
+	height: 100px;
+}
+.PLS{
+	background-color: mediumseagreen;
+	width: 180px;
+	float: right;
+	margin-right: 25px;
+	margin-top: 25px;
+	height: 100px;
+}
+body{
+	font-family: arial;
+}

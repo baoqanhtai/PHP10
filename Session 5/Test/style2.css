@@ -1,0 +1,23 @@
+.demo{
+
+	color: red;
+	font-weight: bold;
+
+}
+@media screen and (max-width: 960px;){
+	.demo{
+		color: blue;
+		font-weight: normal;
+	}
+}				
+@media screen and (max-width: 768px;){
+	.demo{
+		color: green;
+		font-weight: bold;
+	}
+}	
+@media screen and (max-width: 480px;){
+	.demo{
+		color: black;
+		font-weight: bold;
+	}
