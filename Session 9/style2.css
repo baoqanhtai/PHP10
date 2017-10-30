@@ -1,0 +1,31 @@
+
+.a1{
+	transition: 2s;
+}
+.a2{
+	transition: 2s;
+}
+.a3{
+	transition: 2s;
+}
+.a4{
+	transition: 2s;
+}
+.a5{
+	transition: 2s;
+}
+.a1:hover{
+	transform: rotate(30deg);
+}
+.a2:hover{
+	transform: translateX(500px);
+}
+.a3:hover{
+	transform: scale(2,3);
+}
+.a4:hover{
+	transform: skew(40deg);
+}
+.a5:hover{
+	transform: matrix(1,0.3,0,1,0,0);
+}

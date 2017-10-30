@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="common5.js"></script>
+</head>
+<body>
+	<form>
+			<p>Num1<input type="number" name="so" id="x" ></p>
+			<p>Num2<input type="number" name="so" id="y" ></p>
+			<input type="button" name="goi" value="phepcong" onclick="myFunction()">
+	</form>
+	<p id= "result" ></p>
+<script type="text/javascript">
+	function myFunction (){
+		var ketqua ;
+		var x = document.getElementById('x').value;
+		var y = document.getElementById('y').value;
+		ketqua = parseInt(x) + parseInt(y);
+		document.getElementById('result').innerHTML = ketqua ;
+	}	
+</script>
+</body>
+</html>
