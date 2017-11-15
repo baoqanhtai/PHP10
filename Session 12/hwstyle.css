@@ -1,0 +1,13 @@
+body{
+	width: 100%;
+}
+.moveimg {
+	width: 650px;
+	text-align: center;
+	height: 200px;
+}
+.moveimg input {
+	width: 150px;
+	height: 30px;
+	
+}

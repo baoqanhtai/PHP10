@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	#blockAnimation{
+		background:#98bf21;
+		height:100px;
+		width:100px;
+		position:absolute;
+	}
+</style>
+</head>
+<body>
+<button onclick="turnRight()" id = "right">Right</button>
+<button onclick="turnLeft()" id = "left">Left</button>
+<div id="blockAnimation"></div>
+<script> 
+document.getElementById('left').style.display = "none";
+function turnRight(){
+	document.getElementById('blockAnimation').style.left = "250px";
+	document.getElementById('left').style.display = "block";
+	document.getElementById('right').style.display = "none";
+}
+function turnLeft(){
+	document.getElementById('blockAnimation').style.left = "0px";
+	document.getElementById('right').style.display = "block";
+	document.getElementById('left').style.display = "none";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example4</title>
+</head>
+<body>
+	<div>
+		<img src="noImg.jpg" width="500px" height="300px" id="changeImg">
+		<p id="changeText">No name</p>
+		<a href="https://www.wikipedia.org/" id="changeLink">Wikilink</a><br>
+		<input type="button" id="" value="Ronaldo" onclick="myRonaldo()" style="width: 70px; height: 40px;"	>
+		<input type="button" id="" value="Messi" onclick="myMessi()" style="width: 70px; height: 40px;">
+		<input type="button" id="" value="Beckham" onclick="myBeckham()" style="width: 70px; height: 40px;">
+		<input type="button" id="" value="Scholes" onclick="myScholes()" style="width: 70px; height: 40px;">
+	</div>
+	<script type="text/javascript">
+		function myRonaldo() {	
+			document.getElementById('changeLink').href = "https://vi.wikipedia.org/wiki/Ronaldo"
+			document.getElementById('changeText').innerHTML = "C.Ronaldo"
+			document.getElementById('changeImg').src = "ronaldo.jpg"
+		}
+
+		function myMessi() {	
+			document.getElementById('changeLink').href = "https://vi.wikipedia.org/wiki/Messi"
+			document.getElementById('changeText').innerHTML = "Messi"
+			document.getElementById('changeImg').src = "Messi.jpg"
+		}
+		
+		function myScholes() {	
+			document.getElementById('changeLink').href = "https://vi.wikipedia.org/wiki/Paul_Scholes"
+			document.getElementById('changeText').innerHTML = "Paul Scholes"
+			document.getElementById('changeImg').src = "choles.jpg"
+		}
+		
+		function myBeckham() {	
+			document.getElementById('changeLink').href = "https://vi.wikipedia.org/wiki/David_Beckham"
+			document.getElementById('changeText').innerHTML = "D.Beckham"
+			document.getElementById('changeImg').src = "beckham.jpg"
+		}
+		
+	</script>
+</body>
+</html>

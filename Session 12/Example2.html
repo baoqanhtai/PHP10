@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example2</title>
+</head>
+<body>
+	<p id="demo2"></p>
+	<script type="text/javascript">
+		var myDay = "2017-09-29"
+		var myDayFormay = new Date(myDay);
+		var myYear = myDayFormay.getFullYear();
+		var myMonth = myDayFormay.getMonth()+1;
+		var myDate = myDayFormay.getDate();
+		if (myMonth == 1,3,5,7,8){
+			alert("OK ngay chi can lon hon 0 va nho hon 32");
+		}else if (myMonth == 4,6,9,11){
+			alert("OK ngay lon hon 0 va nho hon 31");
+		}else {
+			alert("Thang 2 ");
+		}
+	</script>
+</body>
+</html>

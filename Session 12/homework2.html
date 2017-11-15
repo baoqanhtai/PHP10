@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homework</title>
+	<link rel="stylesheet" type="text/css" href="hwstyle.css">
+</head>
+<body>
+	<div class="moveimg">
+		<div style="height: 250px">
+		<img src="car.jpg" id="image" width="320px"><br>
+		</div>
+		<div id="content">
+			<input type="button" name="left" value="Left" id= "btnleft" onclick="moveLeft()">
+			<input type="button" name="right" value="Right" id= "btnright" onclick="moveRight()">
+		</div>
+	</div>
+	<script type="text/javascript">
+		var cTent = document.getElementById('content')
+		var rmRight = document.getElementById('btnright');
+		var rmLeft = document.getElementById('btnleft');
+		function moveLeft() {
+					document.getElementById('image').style.position="absolute";
+					document.getElementById('image').style.left = "0";
+					document.getElementById("btnleft").style.display = "none";
+					document.getElementById("btnright").style.display = "block";
+					/*cTent.removeChild(rmLeft);*/
+				}
+		function moveRight() {
+					document.getElementById('image').style.position="absolute";
+					document.getElementById('image').style.right = "1000";
+					document.getElementById("btnright").style.display = "none";
+					document.getElementById("btnleft").style.display = "block";
+					/*cTent.removeChild(rmRight);*/
+
+				}
+	</script>
+</body>
+</html>

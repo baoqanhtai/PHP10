@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 2 - session 12</title>
+</head>
+<body>
+	<img src="no_img.jpg" id="image">
+	<p id="name">No name</p>
+	<a href="#" id="link">No link</a>
+	<p onmouseover ="changeInformation('M10')">M10</p>
+	<p onmouseover="changeInformation('CR7')">CR7</p>
+	<p onmouseover="changeInformation('KAKA')">KAKA</p>
+	<p onmouseover="changeInformation('MBAPPE')">MBAPPE</p>
+	<script type="text/javascript">
+		function changeInformation(name){
+			switch(name){
+				case 'M10':
+					document.getElementById('image').src = "m10.jpg";
+					document.getElementById('name').innerHTML= "Messi";
+					document.getElementById('name').style.color = "red";
+					document.getElementById('link').innerHTML= "Wikipedia Messi";
+					document.getElementById('link').href = "http://m10.vn";
+					break;
+				case 'CR7':
+					document.getElementById('image').src = "cr7.jpg";
+					document.getElementById('name').innerHTML= "Cristiano Ronaldo";
+					document.getElementById('name').style.color = "green";
+					document.getElementById('link').innerHTML= "Wikipedia Cristiano Ronaldo";
+					document.getElementById('link').href = "http://cr7.vn";
+					break;
+				case 'KAKA':
+					document.getElementById('image').src = "kaka.jpg";
+					document.getElementById('name').innerHTML= "Kaka";
+					document.getElementById('name').style.color = "violet";
+					document.getElementById('link').innerHTML= "Wikipedia Kaka";
+					document.getElementById('link').href = "http://kaka.vn";
+					break;
+				case 'MBAPPE':
+					document.getElementById('image').src = "mbappe.jpg";
+					document.getElementById('name').innerHTML= "Mbappe";
+					document.getElementById('name').style.color = "black";
+					document.getElementById('link').innerHTML= "Wikipedia Mbappe";
+					document.getElementById('link').href = "http://mbappe.vn";
+					break;
+			}
+		}
+	</script>
+</body>
+</html>

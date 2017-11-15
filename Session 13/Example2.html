@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example2 - Session 13</title>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<p id="demo">Hello PHP 10</p>
+	<p id="clickToHide">Click to hide</p>
+	<p class="clickToShow">Click to show</p>
+	<a>Click to show by a </a>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#clickToHide").click(function(){
+				$("#demo").hide();
+				//document.getElementById('demo').style.display = "none";
+			});
+			$("#clickToShow").click(function(){
+				$("#demo").show();
+				//document.getElementById('demo').style.display = "block";
+			});
+			$("a").click(function(){
+				$("#demo").show();
+				//document.getElementById('demo').style.display = "block";
+			});
+		});
+
+	</script>
+</body>
+</html>

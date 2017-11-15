@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example3</title>
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+</head>
+<body>
+	<div>
+		<form>
+			<h3>Nhap Thong Tin</h3>
+			<p>Sex :
+					Man <input type="radio" name="Sex" value="Man" id="btnMan">
+					Woman <input type="radio" name="Sex" value="Woman" id="btnWoman">
+			</p>
+			<p>Birtday: <input type="date" name="" id="DateCheck"></p>
+			<input type="button" name="" value="Check" id="btncheck" onclick="btnCheck()" ><br>
+			
+			<img src="#" id="showImg"><br>
+			<p id="colorNumber"></p>
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		function btnCheck() {
+			var man = document.getElementById('btnMan').value;
+			var woman = document.getElementById('btnWoman').value;
+			var show ;
+				if (man === true) {
+					show = document.getElementById('showImg').src = "man.jpg" ; 
+				} else if (woman == true) {
+					show = document.getElementById('showImg').src = "woman.jpg" ;
+				}
+				document.getElementById("showImg").innerHTML = show ;
+
+			}
+			var year ; 
+			var checkDay = document.getElementById('DateCheck').value ;
+			var day = new Date();
+			day.setFullYear(1995);
+				if (checkDay.getFullYear(checkDay) < day.getFullYear()) {
+					year = document.getElementById('DateCheck').style.color = "green";
+				} else {
+					year = document.getElementById('DateCheck').style.color = "blue";
+				}
+				document.getElementById('colorNumber').innerHTML = year;
+			
+		
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example1</title>
+
+</head>
+<body>
+	<p id="exp">
+		
+	</p>
+	<script type="text/javascript">
+		var day;
+		switch (new Date().getDay()){
+			case 0:
+       			day = "Sunday";
+        		break;
+    		case 1:
+        		day = "Monday";
+        		break;
+    		case 2:
+        		day = "Tuesday";
+        		break;
+    		case 3:
+        		day = "Wednesday";
+        		break;
+    		case 4:
+        		day = "Thursday";
+        		break;
+    		case 5:
+        		day = "Friday";
+        		break;
+    		case  6key: "value", 
+        		day = "Saturday";
+        		break;
+        		default :
+        		day = " Cuoi tuan la thu 7 chu nhat"
+			}
+			document.getElementById("exp").innerHTML = day;
+		
+	</script>
+
+</body>
+</html>

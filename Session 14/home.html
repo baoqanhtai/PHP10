@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+
+<body>
+	<form>
+			<p>Luong co ban : <input type="text" name="so" id="x" ></p>
+			<p>Luong he so : <input type="text" name="so" id="y" ></p>
+			<input type="button" name="goi" value="Check" onclick="btnCheck()">
+	</form>
+			<p id= "kq" ></p>
+			<div id = "btnCheckbox">
+				<p style="color: green">Ban du dieu kien song sung tuc</p><bt>
+				<p>IphoneX<input type="checkbox" name="" id="check1" value=""></p>
+				<p>Macbook<input type="checkbox" name="" id="check1" value=""></p>
+				<p>Quan ao<input type="checkbox" name="" id="check1" value=""></p>
+			</div>
+			<div  id = "btnRadio">
+				<p style="color: red">Ban can co gang</p>
+				<p>Day them buoi toi<input type="radio" name="1" id="ra1"></p>
+				<p>Ban hang buoi toi<input type="radio" name="1" id="ra2"></p>
+				<p>Giu xe nha hang<input type="radio" name="1" id="ra3"></p>
+			</div>
+
+			
+<script type="text/javascript">
+	document.getElementById('btnCheckbox').style.display = "none";
+	document.getElementById('btnRadio').style.display = "none";
+	function btnCheck (){
+		var ketqua ;
+		var x = document.getElementById('x').value;
+		var y = document.getElementById('y').value;
+		ketqua = parseInt(x) + parseInt(y);
+		document.getElementById('kq').innerHTML = ketqua ;
+		if (ketqua > 1000) {
+			document.getElementById('btnCheckbox').style.display = "block";
+			document.getElementById('btnRadio').style.display = "none";
+
+			
+		} else {
+			document.getElementById('btnRadio').style.display = "block";
+			document.getElementById('btnCheckbox').style.display = "none";
+			
+		}
+	}	
+</script>
+</body>
+</html>
